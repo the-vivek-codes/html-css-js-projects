@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body> 
+    <div class="heading">ROCK PAPER SCISSORS</div>
+    <div class="container">
+        <div class="subtitle">Select Your Choice</div>
+        <div class="choices">
+            <div class="choice" id="rock">👊</div>
+            <div class="choice" id="paper">🖐️</div>
+            <div class="choice" id="scissor">✌️</div>
+        </div>
+        <p id="resultText"></p>
+        <div id="scoreboard">
+            <h3>SCOREBOARD</h3>
+            <div class="scores">
+                <div class="score-box">
+                    <p class="label">WINS</p>
+                    <div class="score" id="wins"></div>
+                </div>
+                <div class="score-box">
+                    <p class="label">LOSSES</p>
+                    <div class="score" id="losses"></div>
+                </div>
+                <div class="score-box">
+                    <p class="label">TIES</p>
+                    <div class="score" id="ties"></div>
+                </div>
+            </div>
+            <button id="reset-score">RESET SCORE</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
