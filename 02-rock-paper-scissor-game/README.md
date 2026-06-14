@@ -8,8 +8,6 @@ Play against the computer, track your performance, and enjoy a clean interactive
 
 ![Rock Paper Scissors Game Preview](preview.png)
 
----
-
 ## Features
 
 * Play against the computer
@@ -23,15 +21,11 @@ Play against the computer, track your performance, and enjoy a clean interactive
 * Modern glassmorphism-inspired UI
 * Responsive design
 
----
-
 ## Technologies Used
 
 * HTML5
 * CSS3
 * JavaScript (ES6)
-
----
 
 ## Game Rules
 
@@ -44,5 +38,3 @@ Play against the computer, track your performance, and enjoy a clean interactive
 | Scissors    | Paper           | Win    |
 | Scissors    | Rock            | Loss   |
 | Same Choice | Same Choice     | Tie    |
-
----
