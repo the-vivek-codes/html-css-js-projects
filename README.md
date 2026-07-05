@@ -9,6 +9,7 @@ This repository serves as my learning journey in front-end web development, wher
 |---|----------|-------------|
 | 1 | Calculator | A basic calculator capable of performing arithmetic operations. |
 | 2 | Rock Paper Scissors | A browser-based Rock Paper Scissors game against the computer. |
+| 3 | Weather Station | A responsive weather dashboard that displays real-time weather information. |
 
 ## Technologies Used
 
