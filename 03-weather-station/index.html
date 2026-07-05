@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Station</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="station">
+        <div class="masthead">
+            <h1>STATION</h1>
+            <div class="sub">Manual Weather Log</div>
+        </div>
+
+        <form class="lookup" id="lookupForm">
+            <input type="text" id="cityInput" placeholder="Enter city, postcode, or lat,lon" autocomplete="off">
+            <button type="submit" id="fetchBtn">Take reading</button>
+        </form>
+
+        <div class="status" id="status"></div>
+
+        <div class="reading" id="reading">
+            <div class="dial-row">
+                <div class="temp-wrap">
+                    <img id="weatherIcon" alt="Weather">
+                    <div class="temperature" id="temperature">--°</div>
+                </div>
+                <div class="dial-info">
+                    <div class="place" id="place">—</div>
+                    <div class="place-meta" id="placeMeta">—</div>
+                    <div class="condition" id="condition">—</div>
+                    <div class="metrics">
+                        <div class="metric">
+                            <div class="label">Feels like</div>
+                            <div class="value" id="feelsLike">—</div>
+                        </div>
+                        <div class="metric">
+                            <div class="label">Wind</div>
+                            <div class="value" id="wind">—</div>
+                        </div>
+                        <div class="metric">
+                            <div class="label">Humidity</div>
+                            <div class="value" id="humidity">—</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="log-title"><span>3-Day Log</span><span id="lastUpdated"></span></div>
+            <div class="log" id="log"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
